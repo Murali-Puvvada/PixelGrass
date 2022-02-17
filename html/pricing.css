@@ -1,0 +1,89 @@
+:root {
+  --darkblue: #1c1e53;
+  --gloss: #f4f6fc;
+}
+
+small {
+  font-size: 1.25rem !important;
+  padding-left: 0.5rem;
+}
+
+li {
+  padding-top: 0.5rem;
+}
+.btn-outline-primary:hover {
+  background-color: var(--darkblue) !important;
+}
+
+/* NavBar */
+
+.navbar {
+  background-color: var(--darkblue);
+  padding-right: 12%;
+}
+
+.nav-link {
+  color: #faf9f6 !important;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.navbar-brand {
+  color: white !important;
+  letter-spacing: 0.75px;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.25rem !important;
+  padding-left: 6%;
+}
+
+.nav-btn {
+  background-color: var(--darkblue);
+  border-radius: 40px;
+  text-align: center;
+  border: solid 1px white;
+}
+
+.navbar-toggler {
+  border-color: white !important; /* For Border color of hamburger*/
+}
+
+/* Main Section */
+
+body {
+  background-color: var(--gloss) !important;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+/* Footer Section */
+#footer {
+  background-color: var(--darkblue);
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footer-float1 {
+  float: left;
+  width: 50%;
+  padding-bottom: 5%;
+  margin-left: 7%;
+  margin-bottom: 30px;
+}
+
+.fab {
+  padding-right: 1.5rem;
+}
+
+.footer-title {
+  letter-spacing: 0.75px;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.25rem !important;
+}
